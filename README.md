@@ -7,8 +7,6 @@ Requests, Heroku, and Bokeh for visualization.
 The repository contains a basic template for a Flask configuration that will
 work on Heroku.
 
-A [finished example](https://lemurian.herokuapp.com) that demonstrates some basic functionality.
-
 ## Step 1: Setup and deploy
 - Git clone the existing template repository.
 - `Procfile`, `requirements.txt`, `conda-requirements.txt`, and `runtime.txt`
@@ -25,7 +23,7 @@ A [finished example](https://lemurian.herokuapp.com) that demonstrates some basi
 - Deploy to Heroku: `git push heroku master`
 - You should be able to see your site at `https://<app_name>.herokuapp.com`
 - A useful reference is the Heroku [quickstart guide](https://devcenter.heroku.com/articles/getting-started-with-python-o).
-- My site is [flask-xiang-tdi.herokuapp.com](http://flask-xiang-tdi.herokuapp.com/)
+- My site is [https://flask-xiang-tdi.herokuapp.com/](https://flask-xiang-tdi.herokuapp.com/)
 
 ## Step 2: Get data from API and put it in pandas
 - Use the `requests` library to grab some data from a public API. This will
