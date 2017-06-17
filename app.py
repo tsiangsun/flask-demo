@@ -1,4 +1,4 @@
-from flask import Flask, redirect, render_template, url_for, request
+from flask import Flask, redirect, render_template, request
 import requests
 import simplejson as json
 import numpy as np 
