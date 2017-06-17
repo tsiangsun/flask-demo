@@ -4,9 +4,6 @@ This project is intended to help you tie together some important concepts and
 technologies, including Git, Flask, JSON, Pandas,
 Requests, Heroku, and Bokeh for visualization.
 
-The repository contains a basic template for a Flask configuration that will
-work on Heroku.
-
 ## Step 1: Setup and deploy
 - Git clone the existing template repository.
 - `Procfile`, `requirements.txt`, `conda-requirements.txt`, and `runtime.txt`
