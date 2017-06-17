@@ -15,11 +15,11 @@ A [finished example](https://lemurian.herokuapp.com) that demonstrates some basi
   contain some default settings.
 - There is some boilerplate HTML in `templates/`
 - Create Heroku application with `heroku create <app name>` or leave blank to auto-generate a name. 
-- (Suggested) Use the [conda buildpack](https://github.com/kennethreitz/conda-buildpack).
+  - (Suggested) Use the [conda buildpack](https://github.com/kennethreitz/conda-buildpack).
   If you choose not to, put all requirements into `requirements.txt` 
 
   `heroku config:add BUILDPACK_URL=https://github.com/kennethreitz/conda-buildpack.git`
-- Here I used following command creating and using buildpack: 
+  - Here I used following command creating and using buildpack: 
   `heroku create flask-xiang-tdi --buildpack https://github.com/kennethreitz/conda-buildpack.git` 
 - *Question*: What are the pros and cons of using conda vs. pip?
 - Deploy to Heroku: `git push heroku master`
